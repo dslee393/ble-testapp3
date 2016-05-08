@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#wrapper {
+  display: inline-block;
+  margin: 10em 0 0 0;
+  width: 80%;
+}
+button {
+  display: inline-block;
+  font-size: 5em;
+  width: 50%;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+#result {
+  font-size: 5em;
+}
