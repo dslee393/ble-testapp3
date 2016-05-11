@@ -1,0 +1,36 @@
+.container {
+  margin: auto;
+  margin-top: 200px;
+}
+
+.title {
+  text-align: center;
+}
+
+.btn {
+  background: #eee;
+  margin-left: 43%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .20);;
+}
+.btn:hover {
+  color: white;
+  background: #1abc9c;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+
+.btnDisconnect {
+  background: red;
+  margin-left: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .20);;
+}
+.btnDisconnect:hover {
+  color: white;
+  background: #1abc9c;
+}
+
+.btnDisconnect:focus,.btn:active {
+   outline: none !important;
+}
