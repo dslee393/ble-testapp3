@@ -1,24 +1,36 @@
-body {
-  margin: 0;
-  padding: 0;
+.container {
+  margin: auto;
+  margin-top: 200px;
+}
+
+.title {
   text-align: center;
 }
-#wrapper {
-  display: inline-block;
-  margin: 10em 0 0 0;
-  width: 80%;
+
+.btn {
+  background: #eee;
+  margin-left: 43%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .20);;
 }
-button {
-  display: inline-block;
-  font-size: 5em;
-  width: 50%;
-  background-color: dodgerblue;
+.btn:hover {
   color: white;
-  font-weight: bold;
-  font-family: sans-serif;
-  border: none;
-  border-radius: 5px;
+  background: #1abc9c;
 }
-#result {
-  font-size: 5em;
+
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+
+.btnDisconnect {
+  background: red;
+  margin-left: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .20);;
+}
+.btnDisconnect:hover {
+  color: white;
+  background: #1abc9c;
+}
+
+.btnDisconnect:focus,.btn:active {
+   outline: none !important;
 }
