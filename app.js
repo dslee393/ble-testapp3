@@ -1,16 +1,21 @@
 const eddy1 = new BluetoothDevice();
 
 $(document).ready(function() {
-  console.log(eddy1);
+
 });
 
 $('.btn').on('click',(event) => {
-  console.log(eddy1.discoverConnect('Apple TV'), (event) => {
-    console.log(event);
-  });
+  eddy1.discoverConnect('RBDot', null, 'generic_attribute');
+  // eddy1.discoverConnect(null,'d0611e78-bbb4-4591-a5f8-487910ae4366');
 });
 $('.btnDisconnect').on('click',(event) => {
-  console.log(eddy1.disconnect());
+eddy1.disconnect();
+  // try {
+  //   eddy1.disconnect();
+  // }
+  // catch (error){
+  //   console.log('Sorry, there was an error.');
+  // }
 });
 
 // function connectToBluetooth() {
